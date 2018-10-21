@@ -31,5 +31,5 @@ $(document).ready(function (){
 });
 });
 function showCommits(){
-  $('#').html('ok')
+  $('#details').html('ok')
 }

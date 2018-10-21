@@ -27,7 +27,7 @@ $(document).ready(function (){
  });
     function showCommits(){
       
-       $('#results').html('commits');
+       $('#details ').html('commits');
     }
     
 });

@@ -22,12 +22,12 @@ $(document).ready(function (){
         $('#results').html(re);
         // console.log(response);
     });
-  
-   
- });
-    function showCommits(){
+   function showCommits(){
       
        $('#details ').html('commits');
     }
     
+   
+ });
+   
 });

@@ -20,6 +20,9 @@ $(document).ready(function (){
     `)
     .join('')}</ul>`;
         $('#results').html(re);
+        function showCommits(){
+  $('#details').html('ok');
+}
         // console.log(response);
     }).fail(function(error) {
    
@@ -29,7 +32,5 @@ $(document).ready(function (){
  });
    
 });
-function showCommits(){
-  $('#details').html('ok')
-}
+
 });

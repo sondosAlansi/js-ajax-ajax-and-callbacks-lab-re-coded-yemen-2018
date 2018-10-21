@@ -11,8 +11,9 @@ $(document).ready(function (){
      <a href=${r.html_url}> ${r.name} </a>
     
        <span>${r.owner.login}</span>
+        <span><a href="">showCommits</a></span>
        <img src=${r.owner.avatar_url}/>
-       <span><a href="">showCommits</a></span>
+      
         
     </li>
     

@@ -8,7 +8,7 @@ $(document).ready(function (){
     ${response.map(r => 
     
      `<li>
-     <span> ${r.name} </span>
+     <a href=${r.html_url}> ${r.name} </span>
     
        <span>${r.owner.login}</span>
        <img src=${r.owner.avatar_url}/>

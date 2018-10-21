@@ -1,6 +1,6 @@
 $(document).ready(function (){
   
- $('a').click(function(){
+ $('#ser').click(function(){
    var search=$('#searchTerms').val();
      $.get('https://api.github.com/users/'+search+'/repos', function(response) {
       

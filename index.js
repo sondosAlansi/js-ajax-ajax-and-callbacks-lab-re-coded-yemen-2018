@@ -28,8 +28,7 @@ $(document).ready(function (){
    
  });
    
-});
-});
-function showCommits(){
+},function showCommits(){
   $('#details').html('ok')
-}
+});
+});

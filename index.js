@@ -11,7 +11,7 @@ $(document).ready(function (){
      <a href=${r.html_url}> ${r.name} </a>
     
        <span>${r.owner.login}</span>
-        <span><a href="" data-re=${r.name} onclick="showCommits (this)">showCommits</a></span>
+        <span><a href="" data-re=${r.name} onclick="showCommits ()">showCommits</a></span>
        <img src=${r.owner.avatar_url}/>
       
         

@@ -21,7 +21,9 @@ $(document).ready(function (){
     .join('')}</ul>`;
         $('#results').html(re);
         // console.log(response);
-    });
+    }).fail(function(error) {
+   
+    console.log('Something went wrong: ' + error.statusText);
    
    
  });

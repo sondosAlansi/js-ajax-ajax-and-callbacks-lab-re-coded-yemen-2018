@@ -23,7 +23,7 @@ $(document).ready(function (){
         // console.log(response);
     }).fail(function(error) {
    
-    $('#').html("I\'m sorry, there\'s been an error");
+    $('#errors').html("I\'m sorry, there\'s been an error");
    
    
  });

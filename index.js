@@ -22,7 +22,7 @@ $(document).ready(function (){
         $('#results').html(re);
         // console.log(response);
     }).fail(function(error) {
-   
+    // This is called when an error occurs
     console.log('Something went wrong: ' + error.statusText);
    
    

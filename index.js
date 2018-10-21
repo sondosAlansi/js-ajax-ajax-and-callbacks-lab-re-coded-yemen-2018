@@ -28,7 +28,8 @@ $(document).ready(function (){
    
  });
    
-},function showCommits(){
-  $('#details').html('ok')
 });
+function showCommits(){
+  $('#details').html('ok')
+}
 });
